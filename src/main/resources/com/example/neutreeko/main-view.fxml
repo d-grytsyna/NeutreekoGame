@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="700.0" style="-fx-background-color: #455754;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.neutreeko.MainController">
+   <children>
+      <Pane layoutX="102.0" layoutY="102.0" prefHeight="504.0" prefWidth="504.0" style="-fx-background-image: images/board.png;">
+         <children>
+            <ImageView fx:id="Board" fitHeight="504.0" fitWidth="504.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/board.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="Button11" layoutX="1.0" layoutY="1.0" maxHeight="100.0" maxWidth="100.0" mnemonicParsing="false" onAction="#makeStep" opacity="0.0" prefHeight="100.0" prefWidth="100.0" />
+            <Button fx:id="Button12" layoutX="101.0" layoutY="1.0" maxHeight="100.0" maxWidth="100.0" mnemonicParsing="false" onAction="#makeStep" opacity="0.0" prefHeight="100.0" prefWidth="100.0" />
+            <Button fx:id="Button13" layoutX="201.0" layoutY="1.0" maxHeight="100.0" maxWidth="100.0" mnemonicParsing="false" onAction="#makeStep" opacity="0.0" prefHeight="100.0" prefWidth="100.0" />
+            <Button fx:id="Button14" layoutX="301.0" layoutY="1.0" maxHeight="100.0" maxWidth="100.0" mnemonicParsing="false" onAction="#makeStep" opacity="0.0" prefHeight="100.0" prefWidth="100.0" />
+            <Button fx:id="Button15" layoutX="401.0" layoutY="1.0" maxHeight="100.0" maxWidth="100.0" mnemonicParsing="false" onAction="#makeStep" opacity="0.0" prefHeight="100.0" prefWidth="100.0" />
+            <Button fx:id="Button21" layoutX="1.0" layoutY="103.0" maxHeight="100.0" maxWidth="100.0" mnemonicParsing="false" onAction="#makeStep" opacity="0.0" prefHeight="100.0" prefWidth="100.0" />
+            <Button fx:id="Button22" layoutX="101.0" layoutY="103.0" maxHeight="100.0" maxWidth="100.0" mnemonicParsing="false" onAction="#makeStep" opacity="0.0" prefHeight="100.0" prefWidth="100.0" />
+            <Button fx:id="Button23" layoutX="201.0" layoutY="103.0" maxHeight="100.0" maxWidth="100.0" mnemonicParsing="false" onAction="#makeStep" opacity="0.0" prefHeight="100.0" prefWidth="100.0" />
+            <Button fx:id="Button24" layoutX="301.0" layoutY="103.0" maxHeight="100.0" maxWidth="100.0" mnemonicParsing="false" onAction="#makeStep" opacity="0.0" prefHeight="100.0" prefWidth="100.0" />
+            <Button fx:id="Button25" layoutX="401.0" layoutY="101.0" maxHeight="100.0" maxWidth="100.0" mnemonicParsing="false" onAction="#makeStep" opacity="0.0" prefHeight="100.0" prefWidth="100.0" />
+            <Button fx:id="Button31" layoutX="1.0" layoutY="203.0" maxHeight="100.0" maxWidth="100.0" mnemonicParsing="false" onAction="#makeStep" opacity="0.0" prefHeight="100.0" prefWidth="100.0" />
+            <Button fx:id="Button32" layoutX="101.0" layoutY="203.0" maxHeight="100.0" maxWidth="100.0" mnemonicParsing="false" onAction="#makeStep" opacity="0.0" prefHeight="100.0" prefWidth="100.0" />
+            <Button fx:id="Button33" layoutX="201.0" layoutY="203.0" maxHeight="100.0" maxWidth="100.0" mnemonicParsing="false" onAction="#makeStep" opacity="0.0" prefHeight="100.0" prefWidth="100.0" />
+            <Button fx:id="Button34" layoutX="301.0" layoutY="203.0" maxHeight="100.0" maxWidth="100.0" mnemonicParsing="false" onAction="#makeStep" opacity="0.0" prefHeight="100.0" prefWidth="100.0" />
+            <Button fx:id="Button35" layoutX="401.0" layoutY="203.0" maxHeight="100.0" maxWidth="100.0" mnemonicParsing="false" onAction="#makeStep" opacity="0.0" prefHeight="100.0" prefWidth="100.0" />
+            <Button fx:id="Button41" layoutX="1.0" layoutY="303.0" maxHeight="100.0" maxWidth="100.0" mnemonicParsing="false" onAction="#makeStep" opacity="0.0" prefHeight="100.0" prefWidth="100.0" />
+            <Button fx:id="Button42" layoutX="101.0" layoutY="303.0" maxHeight="100.0" maxWidth="100.0" mnemonicParsing="false" onAction="#makeStep" opacity="0.0" prefHeight="100.0" prefWidth="100.0" />
+            <Button fx:id="Button43" layoutX="201.0" layoutY="303.0" maxHeight="100.0" maxWidth="100.0" mnemonicParsing="false" onAction="#makeStep" opacity="0.0" prefHeight="100.0" prefWidth="100.0" />
+            <Button fx:id="Button44" layoutX="301.0" layoutY="303.0" maxHeight="100.0" maxWidth="100.0" mnemonicParsing="false" onAction="#makeStep" opacity="0.0" prefHeight="100.0" prefWidth="100.0" />
+            <Button fx:id="Button45" layoutX="401.0" layoutY="303.0" maxHeight="100.0" maxWidth="100.0" mnemonicParsing="false" onAction="#makeStep" opacity="0.0" prefHeight="100.0" prefWidth="100.0" />
+            <Button fx:id="Button51" layoutX="1.0" layoutY="403.0" maxHeight="100.0" maxWidth="100.0" mnemonicParsing="false" onAction="#makeStep" opacity="0.0" prefHeight="100.0" prefWidth="100.0" />
+            <Button fx:id="Button52" layoutX="101.0" layoutY="403.0" maxHeight="100.0" maxWidth="100.0" mnemonicParsing="false" onAction="#makeStep" opacity="0.0" prefHeight="100.0" prefWidth="100.0" />
+            <Button fx:id="Button53" layoutX="201.0" layoutY="403.0" maxHeight="100.0" maxWidth="100.0" mnemonicParsing="false" onAction="#makeStep" opacity="0.0" prefHeight="100.0" prefWidth="100.0" />
+            <Button fx:id="Button54" layoutX="301.0" layoutY="403.0" maxHeight="100.0" maxWidth="100.0" mnemonicParsing="false" onAction="#makeStep" opacity="0.0" prefHeight="100.0" prefWidth="100.0" />
+            <Button fx:id="Button55" layoutX="401.0" layoutY="403.0" maxHeight="100.0" maxWidth="100.0" mnemonicParsing="false" onAction="#makeStep" opacity="0.0" prefHeight="100.0" prefWidth="100.0" />
+            <ImageView fx:id="White3" fitHeight="100.0" fitWidth="100.0" layoutX="201.0" layoutY="305.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/player1.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="White1" fitHeight="100.0" fitWidth="100.0" layoutX="101.0" layoutY="3.0">
+               <image>
+                  <Image url="@images/player1.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="Black2" fitHeight="100.0" fitWidth="100.0" layoutX="101.0" layoutY="405.0" onMouseClicked="#chooseChecker">
+               <image>
+                  <Image url="@images/player2.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="Black3" fitHeight="100.0" fitWidth="100.0" layoutX="301.0" layoutY="405.0" onMouseClicked="#chooseChecker">
+               <image>
+                  <Image url="@images/player2.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="White2" fitHeight="100.0" fitWidth="100.0" layoutX="301.0" layoutY="3.0">
+               <image>
+                  <Image url="@images/player1.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="Black1" fitHeight="100.0" fitWidth="100.0" layoutX="200.0" layoutY="105.0" onMouseClicked="#chooseChecker">
+               <image>
+                  <Image url="@images/player2.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Label layoutX="526.0" layoutY="614.0" prefHeight="28.0" prefWidth="76.0" text="Neutreeko" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="InfoLabel" layoutX="105.0" layoutY="35.0" prefHeight="49.0" prefWidth="502.0" textFill="WHITE">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Button fx:id="RestartButton" layoutX="316.0" layoutY="703.0" mnemonicParsing="false" onAction="#restartGame" prefHeight="42.0" prefWidth="86.0" style="-fx-background-color: #fff;" text="Restart">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
